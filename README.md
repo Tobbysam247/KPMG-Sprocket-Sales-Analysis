@@ -1,94 +1,121 @@
+# KPMG Sprocket Sales Analysis
+---
 
-# 🚴 KPMG Sprocket Sales Analysis – Uncovering What Drives Performance
+## Project Overview
 
-This analysis explores customer behaviour, sales trends, and profitability drivers across the Sprocket business. Our goal? To uncover insights that empower smarter marketing, product, and regional strategies.
+Sprocket Central Pty Ltd acquired a new list of 1,000 potential customers and needed help answering crucial business questions to unlock growth. I was tasked with analyzing their historical customer and transaction data to generate actionable insights and build interactive dashboards using Power BI.
 
 ---
 
-## 📍 Setting the Stage: Who Are Our Customers?
+## Business Questions Answered
 
-![Customer Segmentation Dashboard](Sprocket%20Sales%20Analysis%201.png)
+1. What are the trends in the underlying data?  
+2. Which customer segment has the highest customer value?  
+3. What should Sprocket’s marketing and growth strategy be?  
+4. What external data could improve customer targeting?
+5. Who should the marketing team target from the 1000 new customers—and in the broader market?
+---
 
-We began our journey by looking closely at **who is buying** and **what defines them**.  
+## Data Preparation
 
-- Car ownership emerged as a subtle but powerful differentiator. Customers aged **36–50**, with access to cars, made up the largest and most profitable segment.
-- The Standard product line was the clear favourite, accounting for **$142M** in sales—far outpacing other categories.
-- When we looked at brand performance, WeareA2B and Solex led the pack in profit, suggesting a loyal customer base and pricing power.
-- Regionally, New South Wales stood out not just in volume but in profitability—generating over $5.9M in profit alone.
-
-> **Strategy Insight**: Focus on middle-aged, car-owning customers in high-performing regions like New South Wales. Use this base to expand reach into similar profiles within untapped states.
+  - The dataset was provided in Microsoft Excel.
+  -  I conducted deep data cleaning:
+  - Removed duplicates and missing fields.
+  - Standardized column formats.
+  - Restructured date hierarchies for trend analysis.
+  - Cleaned data was imported into Power BI, where I created relationships, calculated KPIs, and built intuitive visuals.
 
 ---
 
-## 📈 Product and Brand Performance: What’s Selling & When?
+## Key Business Insights
 
-![Product and Brand Dashboard](Sprocket%20Sales%20Analysis%202.png)
+### **Customer Segmentation & Regional Insights**
+![Dashboard 1](Sprocket%20Sales%20Analysis%201.png)
 
-Next, we shifted our lens to **product demand and seasonal performance**.
-
-- Sales spiked in October, hinting at a strong Q4 buying behaviour, perhaps driven by promotions or weather cycles.
-- Across all quarters, Q4 topped with $2.85M in profit, reinforcing the seasonal pattern.
-- Medium-sized bikes hit the sweet spot: they sold the most (13,000 units) and delivered the highest profit ($6.9M).
-- A deep dive into job categories revealed that customers in Manufacturing and Financial Services contributed the most in both sales and profit.
-
-> **Strategy Insight**: Prepare inventory and campaigns ahead of Q4. Double down on medium-sized products, and explore why specific job segments are more valuable—tailoring offers accordingly.
+- **Gender Profit Split**:
+   - Fairly balanced between male and female.
+- **Wealth Segmentation**:
+  - High Net Worth customers contribute 50%+ of profits.
+- **Customer Ownership**:
+  - 50.6% of customers own cars — a key targeting factor.
+- **Regional Leaders**:
+  - New South Wales is the most profitable state with $5.9M.
 
 ---
 
-## 📊 Executive Dashboard: Tracking Business at a Glance
+### **Product & Brand Performance Analysis**
+![Dashboard 2](Sprocket%20Sales%20Analysis%202.png)
 
-![Key Metrics Dashboard](Sprocket%20Sales%20Analysis%203.png)
+- **Sales Trends**:
+   - October records peak monthly sales (~$1.96M).
+- **Quarterly Profit Growth**:
+   - Profits rose steadily from Q2 to Q4.
+- **Product Size**:
+   - Medium-sized products dominate both in profit and volume.
+- **Job Categories**:
+   - Manufacturing and Financial Services yield top sales.
 
-To support ongoing business decisions, we created a **comprehensive executive overview**:
+---
 
-- **4,000 customers**, with **3,494 recorded transactions**.
-- Over $22M in sales and $11M in profit, with an average order value of $1.11K.
-- Gender-based insights show a nearly equal profit contribution from male and female customers.
-- The Affluent and High Net Worth segments combined contribute over 50% of total profit, despite smaller population sizes.
-- Online purchase trends revealed that most customers still prefer offline channels, indicating potential for digital growth.
+### **Key Business Metrics Overview**
+![Dashboard 3](Sprocket%20Sales%20Analysis%203.png)
 
-> **Strategy Insight**: Increase online marketing to affluent customers. Track and reward repeat buyers with targeted loyalty campaigns.
 
+- **Top Age Segment**:
+   - Customers aged 36–50 own the most cars and generate the highest profit ($4.7M).
+- **Product Line**:
+   - The Standard product leads with $142M in sales.
+- **Brand Performance**:
+   - WeareA2B and Solex are the most profitable.
+- **Insight**:
+   - Focus marketing on mid-age, car-owning customers in New South Wales and Victoria.
+- **Target Persona**:
+   - High-income, mid-aged urban professionals.
 ---
 
 ## Recommendations
 
-Based on the insights across the dashboards, here are **data-driven strategies** to improve outcomes:
+### Who to Target (From 1000 New Customers)
+- Match profiles of top customers:
+  - Aged 36–50
+  - Own a car
+  - High Net Worth
+  - Located in urban regions (e.g., NSW)
 
-1. **Customer Targeting**  
-   Focus on high-value segments: car owners aged 36–50, professionals in manufacturing and finance, affluent buyers.
-
-2. **Product Strategy**  
-   Standard and medium-sized bikes should lead inventory planning and promotions.
-
-3. **Regional Focus**  
-   New South Wales and Queensland show strong potential. Expand targeted campaigns in these regions using localized offers.
-
-4. **Digital Push**  
-   Encourage more online orders. Many current buyers still purchase offline—this is a growth opportunity.
-
-5. **Seasonal Planning**  
-   🕒 Build around Q4: run pre-holiday promotions, stock popular products, and activate targeted email campaigns.
+### Broader Market Focus
+- Young professionals with growing income
+- Tech-savvy urban dwellers in expanding states like Victoria and Queensland
 
 ---
 
-##
+## Strategic Suggestions
+
+- **Personalized Offers**: Use customer segmentation to tailor promotions.
+- **Top Products**: Focus on Standard line and medium-sized products.
+- **Geo-targeting**: Invest in high-return states and top job categories.
+- **Digital Channels**: Push online strategies for better reach and conversion.
+
+---
+
+## External Data to Consider
+
+- Social media behaviour and interests
+- Browsing and online purchase trends
+- Regional income levels and population density
+- Car ownership databases
+- Competitor pricing and customer loyalty patterns
 
 ---
 
 ## Tools Used
 
-- **Power BI**: Data Modeling & Visualization  
-- **Microsoft Excel**: Data Cleaning & Prep  
-- **DAX**: Custom Measures and Calculations  
+|Tool           |Purpose                        |
+|---------------|--------------------------------|
+| **Excel**     | Data Cleaning & Preparation    |
+| **Power BI**  | Dashboard Design & Analysis    |
 
----
 
-## Final Thoughts
 
-This project mirrors how real-world businesses use data storytelling to make **informed, profitable decisions**. By breaking down insights across customer behavior, product preferences, and market performance, we empower businesses to move from data to action.
-
----
 
 🙋‍♂️ Author
 -  **Oluwatobi Akinwumi**
