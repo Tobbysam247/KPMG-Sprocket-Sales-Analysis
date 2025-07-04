@@ -30,7 +30,8 @@ Sprocket Central Pty Ltd acquired a new list of 1,000 potential customers and ne
 ## Key Business Insights
 
 ### **Customer Segmentation & Regional Insights**
-![Dashboard 1](Sprocket%20Sales%20Analysis%201.png)
+![Sprocket Sales Analysis 1](https://github.com/user-attachments/assets/3b0132b8-08da-4a4c-993d-5581c0416524)
+
 
 - **Gender Profit Split**:
    - Fairly balanced between male and female.
@@ -44,7 +45,8 @@ Sprocket Central Pty Ltd acquired a new list of 1,000 potential customers and ne
 ---
 
 ### **Product & Brand Performance Analysis**
-![Dashboard 2](Sprocket%20Sales%20Analysis%202.png)
+![Sprocket Sales Analysis 2](https://github.com/user-attachments/assets/25969880-da84-439d-8dce-fc2e97e55741)
+
 
 - **Sales Trends**:
    - October records peak monthly sales (~$1.96M).
@@ -58,7 +60,8 @@ Sprocket Central Pty Ltd acquired a new list of 1,000 potential customers and ne
 ---
 
 ### **Key Business Metrics Overview**
-![Dashboard 3](Sprocket%20Sales%20Analysis%203.png)
+![Sprocket Sales Analysis 3](https://github.com/user-attachments/assets/c97ca634-8750-4bd2-ae6e-d710661abfe8)
+
 
 
 - **Top Age Segment**:
